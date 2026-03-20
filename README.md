@@ -5,3 +5,5 @@
 
 
 # Day 2 : Completed basic programs on pythonic problems.
+
+# Day 3 : Started solving first set of Practice questions 
