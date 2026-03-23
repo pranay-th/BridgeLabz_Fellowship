@@ -5,3 +5,9 @@
 
 
 # Day 2 : Completed basic programs on pythonic problems.
+
+
+# Day 3 : Started Practice set and finished 10 questions.
+
+
+# Day 4 : Completed Practice set.
