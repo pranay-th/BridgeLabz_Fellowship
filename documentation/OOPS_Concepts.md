@@ -117,6 +117,31 @@ class Car:
 my_car = Car("Tesla", "Model 3")
 print(my_car.start_engine())  # Tesla Model 3's engine started!
 ```
+```python
+import uuid
+
+# Generate a random UUID (UUID4)
+random_uuid = uuid.uuid4()
+print(random_uuid)  # e.g. 550e8400-e29b-41d4-a716-446655440000
+
+# Generate a UUID based on host and time (UUID1)
+time_uuid = uuid.uuid1()
+print(time_uuid)
+
+# Convert UUID to string
+uuid_str = str(random_uuid)
+print(uuid_str)
+
+# Create UUID from string
+parsed_uuid = uuid.UUID("550e8400-e29b-41d4-a716-446655440000")
+print(parsed_uuid.version)  # None (not generated, just parsed)
+
+# UUID properties
+u = uuid.uuid4()
+print(u.hex)    # UUID as 32-char hex string without dashes
+print(u.int)    # UUID as 128-bit integer
+print(u.bytes)  # UUID as 16-byte string
+```
 
 ## Object Modeling
 
