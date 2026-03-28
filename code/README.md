@@ -1,23 +1,15 @@
-# Project Structure
+# Infinite Dice Roller
 
-## Directories
+A Python script that simulates a dice-rolling game.
 
-- `src/` - Main source code
-  - `components/` - Reusable UI components
-  - `pages/` - Page-level components or routes
-  - `services/` - API calls and business logic
-  - `utils/` - Helper functions and utilities
-  - `hooks/` - Custom hooks (if applicable)
-  - `types/` - Type definitions / interfaces
-  - `assets/` - Static assets (images, fonts, etc.)
-  - `styles/` - Global styles and themes
-- `tests/` - Unit and integration tests
-- `scripts/` - Build and automation scripts
-- `config/` - Environment and app configuration
-- `docs/` - Documentation
+## How it works
 
-## Files
+- Rolls a 6-sided die up to 5 times
+- Win by rolling a 6 before running out of rolls
+- Tracks all rolls in a list and prints them sorted at the end
 
-- `README.md` - Project overview
-- `.gitignore` - Git ignore rules
-- `.env.example` - Example environment variables
+## Usage
+
+```bash
+python infinite_dice_roller.py
+```
